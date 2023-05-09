@@ -1,0 +1,260 @@
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    background-color: rgba(101, 170, 107, 0.904);
+}
+
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 20px;
+    text-decoration: underline;
+
+}
+
+.head {
+    color: black;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+address {
+    font-size: 20px;
+    margin-left: 30px;
+    font-style: normal;
+    font-family: monospace;
+}
+
+.header-right {
+    margin-left:100px;
+    padding-top:px;
+    font-size:40px;
+    color:rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+
+    padding: 40px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(248, 244, 244);
+}
+
+.body {
+    color: rgb(0, 0, 0);
+    display: flex;
+    background-color: rgba(247, 248, 248, 0.616);
+}
+
+img {
+    margin-top: 20px;
+    width: 300px;
+    padding: 30px;
+}
+
+strong {
+    font-size: 70px;
+}
+
+.para1 {
+    font-size: 50px;
+}
+
+.body-right {
+    padding-left: 20px;
+}
+
+.circle {
+    display: flex;
+
+}
+
+.square p {
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif    ;
+    padding-top: 50px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    width:120px;
+    height:70px;
+    background-color: rgb(71, 197, 176);
+    margin-left: 20px;
+}
+
+.square1 p {
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 17px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    width:120px;
+    height:70px;
+    background-color: rgb(238, 171, 171);
+    margin-left: 20px;
+}
+
+.square2 p{
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 17px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    width:120px;
+    height:70px;
+    background-color: rgb(112, 192, 148);
+    margin-left: 20px;
+}
+
+.square a:hover {
+    color: white;
+}
+
+.str {
+    font-size: 20px;
+}
+
+.para2 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgba(101, 170, 107, 0.904);
+    padding: 20px;
+    text-align: center;
+    border: solid 1px;
+}
+
+.call {
+    margin-left:20px;
+
+}
+
+.call p {
+    font-size: 17px;
+}
+
+.call {
+    font-size: 30px;
+}
+
+.email {
+    margin-top: 20px;
+    
+}
+
+.email a {
+    font-size: 20px;
+}
+.mail{
+    font-size: 30px;
+}
+
+.link {
+    margin-top: 24px;
+}
+.body1{
+    display: flex;
+    background-color: rgba(247, 248, 248, 0.616);
+}
+.social{
+    margin-left: 40px;
+    padding-left: 30px;
+    font-size:25px;
+}
+.social p{
+    color: red;
+    text-decoration: underline;
+    font-size:30px;   
+}
+li a:hover{
+    color: rgb(248, 4, 4);
+}
+.skill{
+    
+    font-size:25px;
+}
+.skill p{
+    color: red;
+    text-decoration: underline;
+    font-size:30px;
+}
+ol{
+    margin-bottom: 40px;
+}
+li{
+    padding-top:14px;
+    font-size:28px;
+}
+.projects{
+    font-size:25px;
+}
+.projects p{
+    color: red;
+    text-decoration: underline;
+    font-size:30px;
+}
+@media screen and (max-width:1200px) {
+    .container{
+        width: 100%;
+    }
+    .header{
+        display: block;     
+    }
+.header-right{
+    margin:0 0 80px 90px;
+    font-size:30px;
+    
+}
+.body{
+    display: block;
+}
+.body1{
+    display: block;
+}
+img{
+    padding-left:80px ;
+}
+.skill{
+    padding-left:70px;
+}
+.projects{
+    padding-left: 70px;
+}
+.footer{
+    display:block;
+    
+}
+.call p{
+    margin-inline-end:200px;
+}
+.email a{
+    margin-inline-end:400px;
+}
+.mail{
+    font-size: 30px;
+}
+
+}
+
